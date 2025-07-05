@@ -1,19 +1,19 @@
 :root{
     --cor-fundo: #01080E ;
-    --cor-principal: #0B0D20 ;
+    --cor-principal: #050714 ;
     --cor-secundaria: #212333; 
-    --cor-destaque: #2BDEFD;
-    --cor-texto: #D7F9FF;
+    --cor-destaque: #67ff0e;
+    --cor-texto: white;
 
 }
 
 body {
-    background-color: var(--cor-fundo);
+    background: url('ia.jpg');
     color: var(--cor-texto);
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    height: 100vh;
 }
 
 .caixa-principal{
@@ -39,21 +39,13 @@ button {
   transition: all 0.5s;
   font-size: 17px;
   padding: 1ch 2ch;
-  background-color: rgb(81, 149, 216);
+  background-color: #67ff0e;
   color: #000;
   cursor: pointer;
   border: none;
   border-radius: 2px;
   box-shadow:
-    2px 2px 0px hsl(197, 77%, 55%),
-    4px 4px 0px hsl(199, 73%, 59%),
-    6px 6px 0px hsl(219, 79%, 69%),
-    8px 8px 0px hsl(202, 57%, 53%),
-    10px 10px 0px hsl(220, 78%, 66%),
-    12px 12px 0px hsl(201, 75%, 60%),
-    14px 14px 0px hsl(214, 73%, 65%),
-    16px 16px 0px hsl(220, 80%, 30%),
-    18px 18px 0px hsl(0, 0%, 10%);
+    2px 2px 0px #51c90c(197, 77%, 55%),
 }
 
 button:hover {
@@ -95,7 +87,7 @@ button:hover{
   align-items: center;
   justify-content: center;
   background: #e7e7e7;
-  border: #4453a6;
+  border: #5dc222;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   overflow: hidden;
