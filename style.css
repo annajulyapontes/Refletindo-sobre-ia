@@ -2,7 +2,7 @@
     --cor-fundo: #01080E ;
     --cor-principal: #050714 ;
     --cor-secundaria: #212333; 
-    --cor-destaque: #67ff0e;
+    --cor-destaque: #0ecfff;
     --cor-texto: white;
 
 }
@@ -39,7 +39,7 @@ button {
   transition: all 0.5s;
   font-size: 17px;
   padding: 1ch 2ch;
-  background-color: #67ff0e;
+  background-color: #0ecfff;
   color: #000;
   cursor: pointer;
   border: none;
